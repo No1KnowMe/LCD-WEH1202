@@ -1,7 +1,6 @@
 package learning;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -91,6 +90,6 @@ public class Main {
             result.add(alphabet.get(c));
         }
         result.add(0);  // Добавляем символ окончания строки
-        return Arrays.toString(result.toArray());
+        return result.toString();
     }
 }
