@@ -43,7 +43,7 @@ public class Main {
         alphabet.put('5', 0b00110101);
         alphabet.put('6', 0b00110110);
         alphabet.put('7', 0b00110111);
-        alphabet.put('8', 0b00101000);
+        alphabet.put('8', 0b00111000);
         alphabet.put('9', 0b00111001);
         alphabet.put(':', 0b00111010);
         alphabet.put(';', 0b00111011);
@@ -186,7 +186,6 @@ public class Main {
             result.add(alphabet.get(c));
         }
         result.add(0);  // Добавляем символ окончания строки
-        System.out.println(alphabet.toString());
         return result.toString();
     }
 }
