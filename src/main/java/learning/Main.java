@@ -128,7 +128,7 @@ public class Main {
         alphabet.put('е', 0b01100101);
         alphabet.put('Ё', 0b10100010);
         alphabet.put('ё', 0b10110101);
-        alphabet.put('Ж', 0b10010011);
+        alphabet.put('Ж', 0b10100011);
         alphabet.put('ж', 0b10110110);
         alphabet.put('З', 0b10100100);
         alphabet.put('з', 0b10110111);
